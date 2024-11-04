@@ -1,3 +1,4 @@
+
 /* Reset some default styles */
 body, h1, ul {
     margin: 0;
@@ -37,6 +38,25 @@ body {
     font-size: 30px;
     text-decoration: none;
    
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text h1 {
+    width: 900px; /* Set width if necessary */
+    font-size: 40px;
+    background-color: #4CAF50;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the text horizontally within the h1 */
+    margin: 100px auto; /* Center the element itself horizontally */
+    text-align: center; /* Ensures the text stays centered */
 }
 
 /* Product Grid */
